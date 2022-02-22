@@ -1,0 +1,37 @@
+{
+  "name": "backendtemplatewithdb",
+  "version": "1.0.0",
+  "description": "backend template with db",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --exit",
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "chaid": "^1.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "express": "^4.17.1",
+    "express-pino-logger": "^6.0.0",
+    "faker": "^5.5.3",
+    "helmet": "^4.6.0",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^9.0.1",
+    "mongoose": "^5.12.12",
+    "pino": "^6.11.3",
+    "pino-pretty": "^5.0.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
